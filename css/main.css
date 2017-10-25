@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  margin: 5px
+  border bottom:2px solid black;
+}
+
+.picture{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 12px;
+}
+img {
+  max-height: 100%;
+}
+section{
+  width: 80%;
+  margin:0 auto;
+}
+h3{
+  margin:auto;
+}
