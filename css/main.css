@@ -17,14 +17,16 @@ img {
   margin: 0;/*delete  margin to image*/
   border:2px solid gray;/*add border to image*/
 }
-section{
-  width: 80%;/*add width*/
-  margin:20px 0px 0px 100px ;/*add margin*/
-  border: 3px solid black;/*add border*/
-  position: absolute;/*add position*/
-  text-align: center;/*add align*/
-  max-height: 100%;/*absolute height*/
-  background: antiquewhite;/*add brackground*/
+section {
+  width: 80%;
+  margin: 20px 0px 0px 100px;
+  border: 3px solid black;
+  text-align: center;
+  max-height: 100%;
+  background: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
 h3{
